@@ -2,13 +2,137 @@
 	box-sizing: border-box;
 }
 
-body{
-	font-family: Helvetica, Arial, sans-serif;
+img {
+  width: 100%;
+  display: block;
 }
 
-h1 {
-	font-size: 300px;
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	background-image: url('http://www.sciencekids.co.nz/images/pictures/flags680/Iceland.jpg');
+	background-size: cover;
+	margin: 0;
+	font-size: 0;
+}
+
+#app-container{
+	background-color: rgba(255, 255, 255, .6);
+	height: 1000px;
+}
+
+h1{
+	background-color: #F2DEDE;
+	font-weight: lighter;
+}
+
+h2{
+	background-color: #D9EDF7;
+	font-weight: lighter;
+}
+
+.facts-header{
+	background-color: #333333;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: .5px;
 	text-align: center;
-	color: chartreuse;
-	font-size: 12vw;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+.navigation{
+	background-color: #e7e7e7;
+	width: 100%;
+}
+
+.navigation div{
+	width: 25%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	list-style: none;
+	font-weight: lighter;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 14px;
+}
+
+.navigation div:hover{
+	background-color: #cecece;
+}
+
+.border{
+	border-right: 1px solid #ccc;
+}
+
+.information-container{
+	background-color: rgba(255, 255, 255, .9);
+	width: 93%;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	padding: 5px 20px;
+	font-size: 12px;
+}
+
+.information-container p{
+	border-top: 1px solid #ccc;
+	padding-top: 10px;
+}
+
+
+.fact-question{
+	width: 49%;
+	display: inline-block;
+
+}
+
+.fact-answer{
+	width: 50%;
+	display: inline-block;
+}
+
+.stories-container{
+	text-align: center;
+}
+.concert{
+	display: inline-block;
+	width: 30%;
+	height: 350px;
+	vertical-align: top;
+	border: 1px solid #ccc;
+	text-align: left;
+}
+.concert h3{
+	font-size: 18px;
+}
+.concert div{
+	padding-bottom: 10px;
+}
+
+.to-the-right{
+	text-align: right;
+}
+
+.to-the-left{
+	text-align: left;
+}
+
+.carpools th{
+	width: 33%;
+}
+
+.carpools td{
+	width: 33%;
+	text-align: left;
+}
+
+.flights{
+	display: inline-block;
+	width: 48%;
+}
+
+.padding-right{
+	padding-right: 20px;
 }
