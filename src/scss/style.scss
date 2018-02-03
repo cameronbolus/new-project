@@ -325,6 +325,7 @@ text-decoration: none;
 	margin-left: 0;
 	font-size: 70px;
 	padding-bottom: 15px;
+	text-align: center;
 }
 
 
@@ -332,6 +333,11 @@ text-decoration: none;
 	font-size: 40px;
 	padding-bottom: 15px;
 }
+//
+// .all-bio p:nth-child(2){
+// 	text-align: center;
+// 	font-size: 44px;
+// }
 
 .all-bio {
 	margin-bottom: 250px;
@@ -352,7 +358,7 @@ text-decoration: none;
 .project > * {
 	display: block;
 	width: 100%;
-	font-size: 32px;
+	font-size: 40px;
 }
 
 .title {
@@ -371,7 +377,6 @@ text-decoration: none;
 
 .project-description {
 	margin-left: 0;
-
 }
 
 .project-mobile {
