@@ -28,4 +28,7 @@ $('.hamburger-menu').click(function() {
     $('.portfolio').css({
         'margin-top': '500px',
     });
+    $('.all-bio').css({
+        'margin-bottom': '250px',
+    });
 });
