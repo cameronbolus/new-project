@@ -227,9 +227,14 @@ span{
 }
 
 .title{
-	font-size: 26px;
+	font-size: 25px;
 	margin-top: 8px;
 	margin-bottom: 8px;
+}
+
+.title-two{
+	font-size: 21px;
+	margin-bottom: 4px;
 }
 
 .first-title {
@@ -243,6 +248,14 @@ span{
 
 .project-description-left{
 	margin-right: 100px;
+}
+
+.john-mccormick-link a{
+	color: #541817;
+	font-size: 22px;
+	font-weight: 500;
+}:hover {
+	color: #541817;
 }
 
 .designs img{
