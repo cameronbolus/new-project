@@ -22,7 +22,7 @@ img {
 	text-align: center;
 }
 
-.hamburger-menu-mobile{
+.hamburger-menu{
 	display: none;
 }
 
@@ -39,7 +39,7 @@ img {
 	color: white;
 	font-weight: bold;
 	text-align: center;
-	width: 60%;
+	width: 65%;
 	padding: 50px 0px;
 	margin-left: auto;
 	margin-right: auto;
@@ -52,20 +52,22 @@ img {
 
 .reg-navigation{
 	display: flex;
-	padding-left: 40px;
-	padding-right: 40px;
-	// width: 95%;
+	// padding-left: 40px;
+	// padding-right: 40px;
+	padding: 10px 40px;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 }
 
 .navigation-list{
 	display: flex;
-	width: 50%;
+	width: 55%;
 	list-style: none;
 	justify-content: space-between;
+	padding-left: 60px;
 }
 
 .navigation-list li{
@@ -113,7 +115,7 @@ img {
 .american-club{
 	display: flex;
 	justify-content: flex-end;
-	padding-right: 60px;
+	padding-right: 85px;
 	padding-top: 130px;
 }
 
@@ -124,7 +126,7 @@ img {
 
 .main-content{
 	text-align: center;
-	padding-top: 245px;
+	padding-top: 125px;
 }
 
 .main-content img{
@@ -197,29 +199,29 @@ img {
 		padding-left: 20px;
 	}
 	.reservation{
-		padding-left: 12px;
+		padding-left: 25px;
 	}
 
 	.reg-navigation{
 		display: flex;
 		padding-left: 20px;
 		padding-right: 20px;
-		// width: 95%;
+		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 		justify-content: center;
 		align-items: center;
 	}
 	.reservation a{
-		padding: 5px 25px;
+		padding: 5px 20px;
 	}
 	.main-content p{
-		width: 48%;
+		width: 58%;
 	}
 	.alt-background-color p{
-		width: 75%;
+		width: 95%;
 	}
-	.hamburger-menu-mobile{
+	.hamburger-menu{
 		display: none;
 	}
 	.navigation-list-mobile{
@@ -244,14 +246,14 @@ img {
 			padding-left: 20px;
 		}
 		.reservation{
-			padding-left: 20px;
+			padding-left: 25px;
 		}
 
 		.reg-navigation{
 			display: flex;
 			padding-left: 20px;
 			padding-right: 20px;
-			// width: 95%;
+			width: 100%;
 			margin-left: auto;
 			margin-right: auto;
 			justify-content: center;
@@ -261,12 +263,12 @@ img {
 			padding: 5px 25px;
 		}
 		.main-content p{
-			width: 45%;
+			width: 55%;
 		}
 		.alt-background-color p{
-			width: 70%;
+			width: 90%;
 		}
-		.hamburger-menu-mobile{
+		.hamburger-menu{
 			display: none;
 		}
 		.navigation-list-mobile{
@@ -284,7 +286,7 @@ img {
 	width: 65%;
 }
 .alt-background-color p{
-	width: 75%;
+	width: 92%;
 }
 
 .navigation-list{
@@ -301,7 +303,7 @@ img {
 	padding-right: 35px;
 }
 
-.hamburger-menu-mobile{
+.hamburger-menu{
 	font-size: 65px;
 	display: block;
 }
@@ -341,7 +343,7 @@ img {
 			padding-right: 35px;
 		}
 
-		.hamburger-menu-mobile-mobile{
+		.hamburger-menu{
 			font-size: 65px;
 			display: block;
 		}

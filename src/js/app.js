@@ -17,18 +17,19 @@ var forEach = function(arr,cb){for(var i = 0; i < arr.length; i++){ cb(arr[i], i
 //     }
 // }
 
-$('.hamburger-menu').click(function() {
+$('.hamburger-menu-mobile').click(function() {
+  document.write(5 + 6);
 
-    $('.mobile-nav-items').css({
-        'display': 'block',
-    });
-    $('.pic-and-bio').css({
-        'margin-top': '450px',
-    });
-    $('.portfolio').css({
-        'margin-top': '500px',
-    });
-    $('.all-bio').css({
-        'margin-bottom': '250px',
-    });
+    // $('.mobile-nav-items').css({
+    //     'display': 'block',
+    // });
+    // $('.pic-and-bio').css({
+    //     'margin-top': '450px',
+    // });
+    // $('.portfolio').css({
+    //     'margin-top': '500px',
+    // });
+    // $('.all-bio').css({
+    //     'margin-bottom': '250px',
+    // });
 });
