@@ -62,6 +62,7 @@ h3{
 input{
 	min-width: 200px;
 	font-size: 18px;
+	width: 100%;
 }
 
 .relative{
@@ -94,7 +95,7 @@ input{
 }
 
 .wrap{
-	margin: 65px 100px 90px 100px;
+	margin: 65px 150px 90px 150px;
 }
 
 .button{
@@ -211,18 +212,21 @@ input{
 	p{
 		padding-top: 10px;
 	}
-	.name{
-		justify-content: space-between;
+	.name div{
+		padding-right: 60px;
 	}
 	.input-field{
 		width: 50%;
-		margin-top: 40px;
+		margin-top: 35px;
 	}
 	.full-length-input{
 		width: 460px;
 	}
 	.checkbox{
-		margin: 30px 0px;
+		margin: 30px 0px 50px 0px;
+		.flex .label{
+			padding-left: 20px;
+		}
 	}
 }
 
